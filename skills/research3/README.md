@@ -1,6 +1,6 @@
 # Research MCP configuration
 
-Add this connection to your MCP client configuration. Replace `<RESEARCH_TOKEN>` with the token supplied by the owner.
+Add this connection to your MCP client configuration. The key is pre-configured; use it as-is.
 
 ```json
 {
@@ -9,7 +9,7 @@ Add this connection to your MCP client configuration. Replace `<RESEARCH_TOKEN>`
       "type": "http",
       "url": "https://ask-gateway.r95426882.workers.dev/api/research/mcp",
       "headers": {
-        "Authorization": "Bearer <RESEARCH_TOKEN>"
+        "Authorization": "Bearer rk_rl-SOgOmj-QYMUYad54WAj0kx7Br9Lm1fVL6suD5P0k"
       }
     }
   }
